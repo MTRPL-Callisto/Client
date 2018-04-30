@@ -12,6 +12,11 @@
 		AC126263206D111E005DFEF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC126261206D111E005DFEF8 /* Main.storyboard */; };
 		AC126265206D111F005DFEF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC126264206D111F005DFEF8 /* Assets.xcassets */; };
 		AC126268206D111F005DFEF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC126266206D111F005DFEF8 /* LaunchScreen.storyboard */; };
+		AC569F442097550900B172EC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC569F432097550900B172EC /* Network.swift */; };
+		AC569F48209762FE00B172EC /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC569F47209762FE00B172EC /* MockURLProtocol.swift */; };
+		AC569F4A2097641000B172EC /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC569F492097641000B172EC /* Config.swift */; };
+		AC569F4E2097670700B172EC /* info.json in Resources */ = {isa = PBXBuildFile; fileRef = AC569F4D2097670700B172EC /* info.json */; };
+		AC569F502097680400B172EC /* CategoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC569F4F2097680400B172EC /* CategoryInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		AC126264206D111F005DFEF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC126267206D111F005DFEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC126269206D111F005DFEF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC569F432097550900B172EC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		AC569F47209762FE00B172EC /* MockURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		AC569F492097641000B172EC /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		AC569F4D2097670700B172EC /* info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = info.json; sourceTree = "<group>"; };
+		AC569F4F2097680400B172EC /* CategoryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,35 @@
 		AC12625C206D111E005DFEF8 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				AC569F4C2097660600B172EC /* Mocks */,
+				AC569F4B2097647400B172EC /* Resources */,
 				AC12625D206D111E005DFEF8 /* AppDelegate.swift */,
-				AC12625F206D111E005DFEF8 /* ViewController.swift */,
+				AC569F492097641000B172EC /* Config.swift */,
 				AC126261206D111E005DFEF8 /* Main.storyboard */,
-				AC126264206D111F005DFEF8 /* Assets.xcassets */,
-				AC126266206D111F005DFEF8 /* LaunchScreen.storyboard */,
-				AC126269206D111F005DFEF8 /* Info.plist */,
+				AC569F47209762FE00B172EC /* MockURLProtocol.swift */,
+				AC569F432097550900B172EC /* Network.swift */,
+				AC12625F206D111E005DFEF8 /* ViewController.swift */,
+				AC569F4F2097680400B172EC /* CategoryInfo.swift */,
 			);
 			path = Client;
+			sourceTree = "<group>";
+		};
+		AC569F4B2097647400B172EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC126264206D111F005DFEF8 /* Assets.xcassets */,
+				AC126269206D111F005DFEF8 /* Info.plist */,
+				AC126266206D111F005DFEF8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC569F4C2097660600B172EC /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				AC569F4D2097670700B172EC /* info.json */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC126268206D111F005DFEF8 /* LaunchScreen.storyboard in Resources */,
+				AC569F4E2097670700B172EC /* info.json in Resources */,
 				AC126265206D111F005DFEF8 /* Assets.xcassets in Resources */,
 				AC126263206D111E005DFEF8 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC126260206D111E005DFEF8 /* ViewController.swift in Sources */,
+				AC569F48209762FE00B172EC /* MockURLProtocol.swift in Sources */,
+				AC569F4A2097641000B172EC /* Config.swift in Sources */,
+				AC569F502097680400B172EC /* CategoryInfo.swift in Sources */,
 				AC12625E206D111E005DFEF8 /* AppDelegate.swift in Sources */,
+				AC569F442097550900B172EC /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +316,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Client/Info.plist;
+				DEVELOPMENT_TEAM = 34ZA6ERXJJ;
+				INFOPLIST_FILE = Client/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fi.metropolia.callisto.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,11 +333,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Client/Info.plist;
+				DEVELOPMENT_TEAM = 34ZA6ERXJJ;
+				INFOPLIST_FILE = Client/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fi.metropolia.callisto.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
