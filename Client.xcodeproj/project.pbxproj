@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0081CF2099ECA600BC3C89 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0081CE2099ECA600BC3C89 /* RootViewController.swift */; };
+		AC0081D12099EDF000BC3C89 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0081D02099EDF000BC3C89 /* CaptureViewController.swift */; };
+		AC0081D32099EE0B00BC3C89 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0081D22099EE0B00BC3C89 /* ResultViewController.swift */; };
+		AC0081D52099EEC100BC3C89 /* CaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0081D42099EEC100BC3C89 /* CaptureViewController.xib */; };
+		AC0081D62099F47C00BC3C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC126264206D111F005DFEF8 /* Assets.xcassets */; };
+		AC0081D82099FF4800BC3C89 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0081D72099FF4800BC3C89 /* ResultViewController.xib */; };
+		AC0081DA209A004300BC3C89 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0081D9209A004300BC3C89 /* ImageViewModel.swift */; };
+		AC0081DC209A0A8800BC3C89 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0081DB209A0A8800BC3C89 /* CameraView.swift */; };
+		AC0081DE209A0C9400BC3C89 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0081DD209A0C9400BC3C89 /* Colors.swift */; };
 		AC12625E206D111E005DFEF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12625D206D111E005DFEF8 /* AppDelegate.swift */; };
-		AC126260206D111E005DFEF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12625F206D111E005DFEF8 /* ViewController.swift */; };
-		AC126263206D111E005DFEF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC126261206D111E005DFEF8 /* Main.storyboard */; };
-		AC126265206D111F005DFEF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC126264206D111F005DFEF8 /* Assets.xcassets */; };
 		AC126268206D111F005DFEF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC126266206D111F005DFEF8 /* LaunchScreen.storyboard */; };
 		AC569F442097550900B172EC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC569F432097550900B172EC /* Network.swift */; };
 		AC569F48209762FE00B172EC /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC569F47209762FE00B172EC /* MockURLProtocol.swift */; };
@@ -20,10 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0081CE2099ECA600BC3C89 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		AC0081D02099EDF000BC3C89 /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		AC0081D22099EE0B00BC3C89 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		AC0081D42099EEC100BC3C89 /* CaptureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaptureViewController.xib; sourceTree = "<group>"; };
+		AC0081D72099FF4800BC3C89 /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		AC0081D9209A004300BC3C89 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		AC0081DB209A0A8800BC3C89 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		AC0081DD209A0C9400BC3C89 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		AC12625A206D111E005DFEF8 /* Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC12625D206D111E005DFEF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC12625F206D111E005DFEF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC126262206D111E005DFEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC126264206D111F005DFEF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC126267206D111F005DFEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC126269206D111F005DFEF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,12 +79,18 @@
 				AC569F4C2097660600B172EC /* Mocks */,
 				AC569F4B2097647400B172EC /* Resources */,
 				AC12625D206D111E005DFEF8 /* AppDelegate.swift */,
+				AC0081DB209A0A8800BC3C89 /* CameraView.swift */,
+				AC0081D02099EDF000BC3C89 /* CaptureViewController.swift */,
+				AC0081D42099EEC100BC3C89 /* CaptureViewController.xib */,
+				AC569F4F2097680400B172EC /* CategoryInfo.swift */,
+				AC0081DD209A0C9400BC3C89 /* Colors.swift */,
 				AC569F492097641000B172EC /* Config.swift */,
-				AC126261206D111E005DFEF8 /* Main.storyboard */,
+				AC0081D9209A004300BC3C89 /* ImageViewModel.swift */,
 				AC569F47209762FE00B172EC /* MockURLProtocol.swift */,
 				AC569F432097550900B172EC /* Network.swift */,
-				AC12625F206D111E005DFEF8 /* ViewController.swift */,
-				AC569F4F2097680400B172EC /* CategoryInfo.swift */,
+				AC0081D22099EE0B00BC3C89 /* ResultViewController.swift */,
+				AC0081D72099FF4800BC3C89 /* ResultViewController.xib */,
+				AC0081CE2099ECA600BC3C89 /* RootViewController.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -155,9 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC126268206D111F005DFEF8 /* LaunchScreen.storyboard in Resources */,
+				AC0081D52099EEC100BC3C89 /* CaptureViewController.xib in Resources */,
+				AC0081D62099F47C00BC3C89 /* Assets.xcassets in Resources */,
+				AC0081D82099FF4800BC3C89 /* ResultViewController.xib in Resources */,
 				AC569F4E2097670700B172EC /* info.json in Resources */,
-				AC126265206D111F005DFEF8 /* Assets.xcassets in Resources */,
-				AC126263206D111E005DFEF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,26 +187,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC126260206D111E005DFEF8 /* ViewController.swift in Sources */,
+				AC0081D12099EDF000BC3C89 /* CaptureViewController.swift in Sources */,
+				AC0081DE209A0C9400BC3C89 /* Colors.swift in Sources */,
 				AC569F48209762FE00B172EC /* MockURLProtocol.swift in Sources */,
 				AC569F4A2097641000B172EC /* Config.swift in Sources */,
+				AC0081DC209A0A8800BC3C89 /* CameraView.swift in Sources */,
+				AC0081DA209A004300BC3C89 /* ImageViewModel.swift in Sources */,
+				AC0081CF2099ECA600BC3C89 /* RootViewController.swift in Sources */,
 				AC569F502097680400B172EC /* CategoryInfo.swift in Sources */,
 				AC12625E206D111E005DFEF8 /* AppDelegate.swift in Sources */,
 				AC569F442097550900B172EC /* Network.swift in Sources */,
+				AC0081D32099EE0B00BC3C89 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC126261206D111E005DFEF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC126262206D111E005DFEF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC126266206D111F005DFEF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -320,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34ZA6ERXJJ;
 				INFOPLIST_FILE = Client/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fi.metropolia.callisto.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,6 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34ZA6ERXJJ;
 				INFOPLIST_FILE = Client/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fi.metropolia.callisto.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
