@@ -3,7 +3,14 @@ import MapKit
 import UIKit
 
 class ImageViewModel {
-    var capturedImage: UIImage?
+    var capturedImage: UIImage? {
+        didSet {
+            guard let image = capturedImage else { return }
+            MLWrapper.process(image: image.cgImage!) { (category, confidence) in
+                debugPrint("Category: \(category), confidence: (confidence)")
+            }
+        }
+    }
     var categoryName: String = "Plastic resin codes"
     var categoryDescription: String = "This identifies the type of plastic resin used to make the item by providing a 'Resin Identification Code'. It is represented with a 'chasing arrows' symbol surrounding a a number between 1 and 7 that defines the resin used."
     var recylingCenterName: String = "Helsinki Metropolitan Area Reuse Centre"

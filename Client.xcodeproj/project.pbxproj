@@ -23,6 +23,8 @@
 		AC569F4A2097641000B172EC /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC569F492097641000B172EC /* Config.swift */; };
 		AC569F4E2097670700B172EC /* info.json in Resources */ = {isa = PBXBuildFile; fileRef = AC569F4D2097670700B172EC /* info.json */; };
 		AC569F502097680400B172EC /* CategoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC569F4F2097680400B172EC /* CategoryInfo.swift */; };
+		AC690367209F92200007A9A4 /* RecyclingModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC690366209F92200007A9A4 /* RecyclingModel.mlmodel */; };
+		AC690369209F922E0007A9A4 /* MLWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC690368209F922E0007A9A4 /* MLWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		AC569F492097641000B172EC /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		AC569F4D2097670700B172EC /* info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = info.json; sourceTree = "<group>"; };
 		AC569F4F2097680400B172EC /* CategoryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryInfo.swift; sourceTree = "<group>"; };
+		AC690366209F92200007A9A4 /* RecyclingModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RecyclingModel.mlmodel; sourceTree = SOURCE_ROOT; };
+		AC690368209F922E0007A9A4 /* MLWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				AC569F4C2097660600B172EC /* Mocks */,
 				AC569F4B2097647400B172EC /* Resources */,
 				AC12625D206D111E005DFEF8 /* AppDelegate.swift */,
+				AC690366209F92200007A9A4 /* RecyclingModel.mlmodel */,
+				AC690368209F922E0007A9A4 /* MLWrapper.swift */,
 				AC0081DB209A0A8800BC3C89 /* CameraView.swift */,
 				AC0081D02099EDF000BC3C89 /* CaptureViewController.swift */,
 				AC0081D42099EEC100BC3C89 /* CaptureViewController.xib */,
@@ -194,7 +200,9 @@
 				AC0081DC209A0A8800BC3C89 /* CameraView.swift in Sources */,
 				AC0081DA209A004300BC3C89 /* ImageViewModel.swift in Sources */,
 				AC0081CF2099ECA600BC3C89 /* RootViewController.swift in Sources */,
+				AC690367209F92200007A9A4 /* RecyclingModel.mlmodel in Sources */,
 				AC569F502097680400B172EC /* CategoryInfo.swift in Sources */,
+				AC690369209F922E0007A9A4 /* MLWrapper.swift in Sources */,
 				AC12625E206D111E005DFEF8 /* AppDelegate.swift in Sources */,
 				AC569F442097550900B172EC /* Network.swift in Sources */,
 				AC0081D32099EE0B00BC3C89 /* ResultViewController.swift in Sources */,
